@@ -99,7 +99,6 @@ function addvertex() {
   var material = new THREE.MeshStandardMaterial({
     map: texture,
     side: THREE.DoubleSide,
-    roughness: 0.5,
   });
   var object = new THREE.Mesh(geom, material);
   object.position.z = -10;
